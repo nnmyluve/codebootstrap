@@ -87,74 +87,50 @@
             </div>
         </section>
 
-        <!-- Featured Articles -->
-        <section class="featured-articles py-5">
-            <div class="container">
-                <h3 class="text-center mb-4 ">Special ice cream flavor for you</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://i.pinimg.com/736x/5c/f2/1f/5cf21f77d0b99bf21160b556510948be.jpg" class="card img top" alt="JISOO">
-                            <div class="card-body">
-                                <h5 class="card-title">Strawberry Flavor</h5>
-                                <p class="card-text">Strawberry ice cream is a sweet, frozen dessert made from a mixture of milk, cream, sugar, and natural of strawberry flavor..</p>
-                                <a href="#" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://i.pinimg.com/736x/ad/9c/8e/ad9c8e24054ef76f373e967e1fe8d781.jpg" class="card-img-top" alt="yinwar">
-                            <div class="card-body">
-                                <h5 class="card-title">Vanilla</h5>
-                                <p class="card-text">Vanilla ice cream is a classic frozen dessert made from a base of milk, cream, sugar, and vanilla flavoring. </p>
-                                <a href="#" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://i.pinimg.com/736x/a1/4d/c6/a14dc61b131ea1553df5b51e35d0ac0b.jpg" class="card-img-top" alt="JINX">
-                            <div class="card-body">
-                                <h5 class="card-title">Mint flavor</h5>
-                                <p class="card-text">Mint ice cream is a refreshing frozen dessert made with a base of milk, cream, sugar, and mint flavoring.</p>
-                                <a href="#" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
+        <!--ice cream big pic-->
+        <section class="featured-icecream py-5 bg-light">
+            <div class="container text-center">
+               
+                <img src="https://static.vecteezy.com/system/resources/previews/026/707/174/large_2x/colorful-ice-creams-in-row-photo.jpeg" 
+                     alt="Colorful ice creams in a row" 
+                     class="img-fluid rounded">
+                <p class="mt-3">Enjoy the colorful and delightful variety of ice creams we offer!</p>
             </div>
         </section>
+        
 
         <!-- Trending Topics -->
         <style>
             .trending .row {
-                gap: 5px; /* Set the gap between grid items */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                text-align: center;
             }
-            .trending img {
-                margin-bottom: 5px; /* Add spacing below the images */
-                width: 100%; /* Ensure images are responsive */
-                height: auto;
+            .trending .col-md-3 {
+                flex: 0 0 calc(25% - 10px); 
+                margin-bottom: 8px;
             }
         </style>
-        <section class="trending py-5 bg-light" >
-            <div class="container" >
-                <h2 class="text-center mb-4">Trending Topics</h2>
-                <div class="row text-center">
+        <section class="trending py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Best Topics for You</h2>
+                <div class="row">
                     <div class="col-md-3">
-                        <img src="https://thesuburbansoapbox.com/wp-content/uploads/2020/06/Chocolate-Ice-Cream-4-300x300.jpg" alt="chocolate ice cream flavor">
-                        <p class="fw-bold">chocolate ice cream flavor</p>
+                        <img src="https://thesuburbansoapbox.com/wp-content/uploads/2020/06/Chocolate-Ice-Cream-4-300x300.jpg" alt="chocolate ice cream flavor" class="img-fluid">
+                        <p class="fw-bold">Chocolate </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="https://thefirstyearblog.com/wp-content/uploads/2024/05/Vanilla-Cake-Square-2024-300x300.png" alt="Vanilla Cake">
-                        <p class="fw-bold">Vanilla cake</p>
+                        <img src="https://thefirstyearblog.com/wp-content/uploads/2024/05/Vanilla-Cake-Square-2024-300x300.png" alt="Vanilla Cake" class="img-fluid">
+                        <p class="fw-bold">Vanilla Cake</p>
                     </div>
                     <div class="col-md-3">
-                        <img src="https://www.foodlovinfamily.com/wp-content/uploads/2020/06/vanilla-bean-frappuccino-main-square-300x300.jpg" alt="vanilla frappe ">
-                        <p class="fw-bold">Vanilla frappe</p>
+                        <img src="https://www.foodlovinfamily.com/wp-content/uploads/2020/06/vanilla-bean-frappuccino-main-square-300x300.jpg" alt="Vanilla Frappe" class="img-fluid">
+                        <p class="fw-bold">Vanilla Frappe</p>
                     </div>
                     <div class="col-md-3">
-                        <img src="https://mattsfitchef.com/wp-content/uploads/2024/03/iced-matcha-latte-300x300.jpeg" alt="Matcha Latte">
+                        <img src="https://mattsfitchef.com/wp-content/uploads/2024/03/iced-matcha-latte-300x300.jpeg" alt="Matcha Latte" class="img-fluid">
                         <p class="fw-bold">Matcha Latte</p>
                     </div>
                 </div>
